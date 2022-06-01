@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Ccompatible" content="ie-edge">
+<title>Alenut</title>
+<link rel="stylesheet" href="file:///home/ale/Documentos/cursoweb/Bootstraps5/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bitter&family=Koulen&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="file:///home/ale/Documentos/appnut/appnut.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row my-5">
+        <div class="logo col-12">
+            <h1 class="display-1">Formulario de Consulta Nutricional</h1>
+        </div>
+        </div>
+    <nav>
+      <div class="container">
+        <div class="row my-5">
+          <ul class="Col">
+            <li> <a href="file:///home/ale/Documentos/appnut/Formulario.html">Formulario de paciente</a></li>
+            <li> <a href="file:///home/ale/Documentos/appnut/24hrs.html">Registro de recordatorio de 24 Horas</a></li>
+            <li> <a href="#">Recetario</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container nom">
+    <div class="row">
+      <div class="col">
+        <h2 class="display-5"> Recordatorio de 24 horas</h2>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="containers">
+    <div class="row">
+      <div class="col">
+        <form class="" action="index.html" method="post">
+          <div class="row">
+            <div class="col-6 col-md-6">
+              <label for="comida" class="form-label">Tiempo de comida</label>
+            <select class="comida" name="comida">
+              <option value="Desayuno">Desayuno</option>
+              <option value="Refrigerio_1">Refrigerio 1</option>
+              <option value="Almuerzo">Almuerzo</option>
+              <option value="Refrigerio_2">Refrigerio 2</option>
+              <option value="Cena">Cena</option>
+              <option value="Refrigerio_3">Refrigerio 3</option>
+              </select>
+            </div>
+            <div class="col-6 col-md-6">
+              <label for="hora_de_comida" class="form-label">Hora de Comida</label>
+              <input type="text" class="form-control" placeholder="Hora" name="hora_de_comida" value="">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+<div class="conteiner_24">
+  <div class="row">
+    <div class="col-12">
+      <form class="" action="index.html" method="post">
+          <div class="row">
+            <div class="col">
+              <div class="tabla-responsive">
+                <table class="table table-strip table-hover table-sm">
+                    <thead>
+                    <tr>
+                      <th>Tipo de preparación</th>
+                      <th>Cantidad</th>
+                      <th>CHO</th>
+                      <th>CHON</th>
+                      <th>COOH</th>
+                      <th>CAL</th>
+                      <th>SODIO</th>
+                      <th>FIBRA</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+  					         <tr id='addr0'>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                    </tr>
+                    <tr>
+  						        <td>
+                        <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                      </td>
+  						        <td>
+  						          <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						        </td>
+  						        <td>
+  						          <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						        </td>
+  						        <td>
+  						          <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						        </td>
+                      <td>
+                        <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                      </td>
+                      <td>
+                        <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                      </td>
+                      <td>
+                        <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                      </td>
+                      <td>
+                        <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                      </td>
+                    </tr>
+                    <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                   </tr>
+                   <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                   </tr>
+                   <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                       <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                       </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="CSODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                   </tr>
+                   <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                   </tr>
+                   <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                   </tr>
+                   <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                  </tr>
+                  <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                  </tr>
+                  <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                  </tr>
+                  <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="SODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+                  </tr>
+                  <tr>
+  						         <td> <input type="text" name="alimento" placeholder="alimento" class="form-control" value="">
+                       </td>
+  						         <td>
+  						           <input type="number" name='gramos'  placeholder='cantidad' class="form-control"/>
+  						         </td>
+  						         <td>
+  						           <input type="number" name='CHO' placeholder="CHO" class="form-control"/>
+  						         </td>
+  						          <td>
+  						            <input type="number" name='CHON' placeholder='CHON' class="form-control"/>
+  						          </td>
+                        <td>
+                          <input type="number" name="COOH" placeholder="COOOH" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="CAL" placeholder="CAL" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="SODIO" placeholder="CSODIO" class="form-control" value="">
+                        </td>
+                        <td>
+                          <input type="number" name="FIBRA" placeholder="FIBRA" class="form-control" value="">
+                        </td>
+  					         </tr>
+                    </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </form>
+     </div>
+   <div>
+</div>
+
+<div class="container nom">
+  <div class="row">
+    <div class="col">
+      <h2 class="display-5">Frecuencia de Consumo</h2>
+    </div>
+  </div>
+</div>
+<hr>
+
+<div class=" table-responsive">
+  <div class="row">
+    <div class="col">Alimentos</div>
+    <div class="col bg-light">Nunca</div>
+    <div class="col">Al mes
+      <div class="row">
+        <div class="col">1</div>
+        <div class="col bg-light">2</div>
+        <div class="col">3</div>
+      </div>
+    </div>
+    <div class="col">A la semana
+      <div class="row">
+        <div class="col bg-light">1</div>
+        <div class="col">2</div>
+        <div class="col bg-light">3</div>
+        <div class="col">4</div>
+        <div class="col bg-light">5</div>
+        <div class="col">6</div>
+      </div>
+    </div>
+    <div class="col">Al día
+      <div class="row">
+        <div class="col bg-light">1</div>
+        <div class="col">2</div>
+        <div class="col bg-light">3</div>
+        <div class="col">4</div>
+        <div class="col bg-light">5</div>
+        <div class="col">6</div>
+      </div>
+    </div>
+  <div class="row">
+    <div class="col">Lacteos</div>
+    <div class="col bg-light form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col bg-light form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col bg-light form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col bg-light form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col bg-light form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col bg-light form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col bg-light form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col bg-light form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="lacteos" name="" value=""> </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Leche</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="leche" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Huevos</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="huevos" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Carne de Res</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="res" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Carne de cerdo</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cerdo" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Aves</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aves" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Embutidos</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="embutidos" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Pescado/ Mariscos</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="pymariscos" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Verduras</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="verduras" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Frutas</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="frutas" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Frutos Secos</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="fSecos" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Legumbres</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="legumbres" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Aceite</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="aceite" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Margarina</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="margarina" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Cereales refinados</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cRefinados" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Cereales integrales</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cIntegrales" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Reposteria industrial</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="reposteria" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Azúcar</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="azucar" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Alcohol</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="alcohol" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Bebidas Energizantes</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="energizante" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Café</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="cafe" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">Agua</div>
+    <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check bg-light"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+        <div class="col form-check"> <input type="checkbox" class="form-check-input" id="Agua" name="" value=""> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="file:///home/ale/Documentos/cursoweb/Bootstraps5/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+</body>
+</html>

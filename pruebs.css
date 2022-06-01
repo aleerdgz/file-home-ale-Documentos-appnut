@@ -1,0 +1,27 @@
+body,button{
+	font-family:"inter", sans-serif;
+}
+:root{
+	--offcanvas-width:270px;
+	--topNavbarHeight: 56px;
+}
+nav{
+	background: #000;
+}
+.sidebar-nav{
+	width: var(--offcanvas-width);
+}
+@media (min-width:992px){
+	body{
+		overflow: auto !important;
+	}
+	.offcanvas-background::before{
+		display: none;
+	}
+	.sidebar-nav{
+		transform: none;
+		visibility: visible !important;
+		top: var(--topNavbarHeight);
+		height: calc(100% - var(--topNavbarHeight));
+		}
+}
